@@ -115,6 +115,7 @@ const Mutation = new GraphQLObjectType({
         }
       },
     },
+    // Pepresenting the update client mutation
     // Delete Client
     deleteClient: {
       type: ClientType,
